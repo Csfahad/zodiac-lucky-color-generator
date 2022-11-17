@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Zapfino", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top:30px;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    max-width: 100vw;
+    border-radius: 10px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: center;
+}
+
+select, button {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    margin: 30px 5px;
+    color: black;
+    padding: 10px;
+    font: 100 1.2rem sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 30px 5px;
+    color: white;
+    padding: 10px;
+    font: 100 1.2rem sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+
